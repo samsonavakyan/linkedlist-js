@@ -49,3 +49,5 @@ class LinkedList {
       .toString();
   }
 }
+
+module.exports = { LinkedList };
