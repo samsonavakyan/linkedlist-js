@@ -1,6 +1,7 @@
 class LinkedListNode {
   constructor(value, next = null) {
     this.value = value;
+    this.next = next;
   }
 
   toString() {
@@ -39,7 +40,7 @@ class LinkedList {
       this.tail = newNode;
     }
 
-    this.this;
+    return this;
   }
 
   toArray() {
