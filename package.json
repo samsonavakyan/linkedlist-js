@@ -1,0 +1,22 @@
+{
+  "name": "linked-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "linkedlist.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samsonavakyan/linkedlist-js.git"
+  },
+  "author": "avakyansamson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samsonavakyan/linkedlist-js/issues"
+  },
+  "homepage": "https://github.com/samsonavakyan/linkedlist-js#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
