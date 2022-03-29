@@ -2,7 +2,7 @@
 
 Linked list on javascript
 
- Stack:
-  javascript
-  jest
-  npm
+Stack:
+* javascript
+* jest
+* npm
