@@ -43,6 +43,24 @@ class LinkedList {
     return this;
   }
 
+  find(value) {
+    if (!this.head) {
+      return null;
+    }
+
+    let currentNode = this.head;
+
+    while (currentNode) {
+      if (currentNode.value === value) {
+        return currentNode;
+      }
+
+      currentNode = currentNode.next;
+    }
+
+    return null;
+  }
+
   toArray() {
     const nodes = [];
 

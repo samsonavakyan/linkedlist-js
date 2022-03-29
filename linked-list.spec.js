@@ -32,4 +32,11 @@ describe('Linked list', () => {
     expect(list.head.value).toBe('x');
     expect(list.tail.value).toBe('x');
   });
+
+  test('Find', () => {
+    let list = init();
+
+    expect(list.find('d').toString()).toBe('d');
+    expect(list.find('x')).toBe(null);
+  });
 });
